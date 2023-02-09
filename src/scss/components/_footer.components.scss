@@ -1,0 +1,59 @@
+.mk-footer{
+    background-color: $gold;
+    box-shadow: -4px -4px 16px rgba($color: $gold, $alpha: .6);
+    grid-area: footer;
+
+    &__container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        margin: 0 auto;
+        padding: 25px 0;
+        width: 80%;
+    }
+
+    &__logo{
+        align-items: center;
+        display: flex;
+        justify-content: start;
+    }
+
+    &__contact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-family: $font-content;
+        justify-content: center;
+
+        &-container{
+            text-align: center;
+            width: 80%;
+        }
+    }
+
+    &__nav{
+        &-container{
+            align-items: end;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+
+        &-item{
+            color: $black;
+            font-family: $font-title;
+
+            a{
+                color: inherit;
+                font-weight: 700;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            &--active{
+                color: $blue;
+            }
+        }
+    }
+}

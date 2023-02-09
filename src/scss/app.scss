@@ -1,0 +1,23 @@
+// Settings
+@import 'settings/color.settings.scss';
+@import 'settings/fonts.settings.scss';
+@import 'settings/padding.settings.scss';
+@import 'settings/size.settings.scss';
+// Tools
+
+// Generic
+@import 'generic/_reset.generic.scss';
+@import 'generic/_fontFace.generic.scss';
+
+// Elements
+@import 'elements/headers.elements.scss';
+@import 'elements/body.elements.scss';
+
+// Objects
+@import 'objects/grid.objects.scss';
+
+// Components
+@import 'components/_header.components.scss';
+@import 'components/_footer.components.scss';
+
+// Trumps

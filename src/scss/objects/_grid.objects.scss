@@ -1,0 +1,7 @@
+.mk-grid{
+    display: grid;
+    grid-template-areas:    "header"
+                            "content"
+                            "footer";
+    grid-template-rows: auto 1fr auto;
+}
