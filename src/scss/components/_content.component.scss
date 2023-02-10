@@ -1,0 +1,53 @@
+.content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    &__container{
+        padding-top: 25px;
+    }
+
+    &__title{
+        h1{
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+
+    &__text{
+        font-family: $font-content;
+
+        p{
+            padding: 10px 0;
+        }
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+
+
+        &-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 50px;
+        }
+
+        &-item{
+            border-radius: 12px;
+            border: 2px solid $blue;
+            height: 180px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}
