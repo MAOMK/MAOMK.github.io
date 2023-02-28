@@ -1,6 +1,6 @@
 .mk-footer{
-    background-color: $gold;
-    box-shadow: -4px -4px 16px rgba($color: $gold, $alpha: .6);
+    background-color: $gold-color;
+    box-shadow: -4px -4px 16px rgba($color: $gold-color, $alpha: .6);
     grid-area: footer;
 
     &__container{
@@ -11,10 +11,23 @@
         width: 80%;
     }
 
+    // Media queries
+    @media (max-width: 768px) {
+        &__container{
+            grid-template-columns: 1fr;
+            row-gap: 1rem;
+        }
+    }
+
+
     &__logo{
         align-items: center;
         display: flex;
         justify-content: start;
+
+        @media (max-width: 768px) {
+            justify-content: center;
+        }
     }
 
     &__contact{
@@ -40,8 +53,14 @@
             justify-content: center;
         }
 
+        @media (max-width: 768px) {
+            &-container{
+                align-items: center;
+            }
+        }
+
         &-item{
-            color: $black;
+            color: $black-color;
             font-family: $font-title;
 
             a{
@@ -52,7 +71,7 @@
             }
 
             &--active{
-                color: $blue;
+                color: $blue-color;
             }
         }
     }

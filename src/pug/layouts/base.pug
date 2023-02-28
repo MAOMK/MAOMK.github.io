@@ -1,12 +1,15 @@
 doctype html
-html(lang="es")
+html(lang=lang)
     head
         meta(charset="UTF-8")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        title MAOMK Solutions | Home
+        title= title
         link(rel="stylesheet", href="src/css/app.css")
     body.mk-grid
         include ../components/_header.pug
-        block Content
+        main.mk-content
+            block Content
         include ../components/_footer.pug
+        script(src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default-3.0")
+        script(src="src/js/app.js")
