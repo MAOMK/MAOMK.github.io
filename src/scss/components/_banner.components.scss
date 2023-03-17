@@ -71,3 +71,56 @@
         }
     }
 }
+
+.banner-cls-1 {
+    fill: #E9EFF2;
+  }
+
+  .banner-cls-1, .banner-cls-2 {
+    stroke-miterlimit: 10;
+  }
+
+  .banner-cls-1, .banner-cls-2, .banner-cls-3 {
+    stroke: #204C73;
+    stroke-width: 4px;
+  }
+
+  .banner-cls-2, .banner-cls-3 {
+    fill: none;
+  }
+
+  .banner-cls-3 {
+    stroke-linejoin: round;
+  }
+
+#mail-tab{
+    cursor: pointer;
+    position: relative;
+
+    &::after{
+        content: "HOLA";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: $blue-color;
+        width: 150px;
+        height: 200px;
+        z-index: 15;
+    }
+    
+    &:hover{
+        display: none;
+
+
+        &::after{
+            content: "HOLA";
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $blue-color;
+            width: 150px;
+            height: 200px;
+            z-index: 15;
+        }
+    }
+}

@@ -358,6 +358,55 @@ body {
   width: 300px;
 }
 
+.banner-cls-1 {
+  fill: #E9EFF2;
+}
+
+.banner-cls-1, .banner-cls-2 {
+  stroke-miterlimit: 10;
+}
+
+.banner-cls-1, .banner-cls-2, .banner-cls-3 {
+  stroke: #204C73;
+  stroke-width: 4px;
+}
+
+.banner-cls-2, .banner-cls-3 {
+  fill: none;
+}
+
+.banner-cls-3 {
+  stroke-linejoin: round;
+}
+
+#mail-tab {
+  cursor: pointer;
+  position: relative;
+}
+#mail-tab::after {
+  content: "HOLA";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #204C73;
+  width: 150px;
+  height: 200px;
+  z-index: 15;
+}
+#mail-tab:hover {
+  display: none;
+}
+#mail-tab:hover::after {
+  content: "HOLA";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #204C73;
+  width: 150px;
+  height: 200px;
+  z-index: 15;
+}
+
 .btn {
   align-items: center;
   border-radius: 12px;
@@ -428,6 +477,22 @@ body {
 }
 .mk-content__cards-item h2 {
   text-align: center;
+}
+.mk-content__cards-item--gold {
+  border: 2px solid #96A65D;
+  text-align: left;
+  padding-bottom: 4rem;
+  height: 220px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mk-content__cards-item--gold h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.mk-content__cards-item--gold p {
+  font-family: "Courier New";
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=app.css.map */

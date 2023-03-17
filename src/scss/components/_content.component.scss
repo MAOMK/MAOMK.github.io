@@ -49,6 +49,25 @@
             h2{
                 text-align: center;
             }
+
+            &--gold{
+                border: 2px solid $gold-color;
+                text-align: left;
+                padding-bottom: 4rem;
+                height: 220px;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                h2{
+                    text-align: left;
+                    margin-bottom: 1rem;
+                }
+
+                p{
+                    font-family: $font-content;
+                    font-weight: 400;
+                }
+            }
         }
     }
 }
