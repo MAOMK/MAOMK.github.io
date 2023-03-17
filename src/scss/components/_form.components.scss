@@ -1,0 +1,15 @@
+.mk-contact-form{
+    &__container{
+        display: flex;
+        flex-direction: column;
+
+        input, textarea{
+            border: 2px solid $black-color;
+            border-radius: .4rem;
+            margin: 1rem 0px;
+            padding: 1rem;
+            font-size: 1rem;
+            padding-left: 2rem;
+        }
+    }
+}

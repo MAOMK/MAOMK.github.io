@@ -10,3 +10,16 @@ block Content
                     p Transformando ideas en experiencias digitales
             .banner__img
                 img(src="src/img/SVG/bannerHome.svg", alt="", srcset="")
+    section.mk-content__container
+        .mk-content__title
+            h1 CONTACTAME
+        .mk-content__text 
+            p 
+            |   Te dejo mis redes sociales por si deseas contactarme directamente ó también puedes diligenciar el formulario de la parte inferior y pronto estaré comunicándome contigo:
+    section.mk-contact-form
+        form.mk-contact-form__container
+            input#Name(type="text", name="Name", placeholder="Name")
+            input#Email(type="email", name="Email", placeholder="Email")
+            input#Asunto(type="text", name="Asunto", placeholder="Asunto")
+            textarea#Mensaje(name="Mensaje", cols="30", rows="10", placeholder="Mensaje...")
+            button(type="submit").btn.btn-blue ENVIAR
