@@ -496,6 +496,9 @@ body {
   font-weight: 400;
 }
 
+.mk-contact-form {
+  padding: 3rem 0;
+}
 .mk-contact-form__container {
   display: flex;
   flex-direction: column;
@@ -507,6 +510,9 @@ body {
   padding: 1rem;
   font-size: 1rem;
   padding-left: 2rem;
+}
+.mk-contact-form__container textarea {
+  resize: none;
 }
 
 /*# sourceMappingURL=app.css.map */
