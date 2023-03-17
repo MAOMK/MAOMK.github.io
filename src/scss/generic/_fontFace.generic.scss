@@ -12,13 +12,24 @@
 
 @font-face {
     font-family: 'Courier New';
-    src: url('../fonts/CourierNewPS-BoldMT.eot');
-    src: url('../fonts/CourierNewPS-BoldMT.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/CourierNewPS-BoldMT.woff2') format('woff2'),
-        url('../fonts/CourierNewPS-BoldMT.woff') format('woff'),
-        url('../fonts/CourierNewPS-BoldMT.ttf') format('truetype');
-    font-weight: bold;
+    src: url('../fonts/CourierNewPSMT.eot');
+    src: url('../fonts/CourierNewPSMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CourierNewPSMT.woff2') format('woff2'),
+        url('../fonts/CourierNewPSMT.woff') format('woff'),
+        url('../fonts/CourierNewPSMT.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Candara';
+    src: url('../fonts/Candara-Bold.eot');
+    src: url('../fonts/Candara-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Candara-Bold.woff2') format('woff2'),
+        url('../fonts/Candara-Bold.woff') format('woff'),
+        url('../fonts/Candara-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
